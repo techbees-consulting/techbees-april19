@@ -27,4 +27,9 @@ def multi_add(*args):
     for a in args:
         z += a
     print('sum is {}'.format(z))
+
+def fn_inputs(a=0,b=0):
+    a = int(input('enter first number'))
+    b = int(input('enter second number'))
+    return a+b
     

@@ -29,3 +29,4 @@ print(10+20)
 print('hi' * 10) #prints hi 10 times
 
 
+print ("He's got {} eyes and {} hair.".format(my_eyes, my_hair))
